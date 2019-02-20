@@ -326,7 +326,7 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libprotobuf-cpp-full
 
-# RCS
+#RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
     rcs_service_aidl.xml \
