@@ -32,7 +32,7 @@ PRODUCT_PACKAGES += \
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := 560dpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_AAPT_PREBUILT_DPI := xxxhdpi xxhdpi xhdpi hdpi
 
 # Audio
@@ -44,8 +44,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 2160
-TARGET_SCREEN_WIDTH := 1080
+TARGET_SCREEN_HEIGHT := 1520
+TARGET_SCREEN_WIDTH := 720
 
 # Init
 PRODUCT_PACKAGES += \
@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
     android.hardware.soundtrigger@2.0-service \
     audiod \
     audio.a2dp.default \
-    audio.primary.sdm660 \
+    audio.primary.msm8953 \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
@@ -126,10 +126,10 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@2.0-impl \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    copybit.sdm660 \
-    gralloc.sdm660 \
-    hwcomposer.sdm660 \
-    memtrack.sdm660 \
+    copybit.msm8953 \
+    gralloc.msm8953 \
+    hwcomposer.msm8953 \
+    memtrack.msm8953 \
     libdisplayconfig \
     libgenlock \
     liboverlay \
@@ -235,7 +235,7 @@ PRODUCT_COPY_FILES += \
 
 # LED packages
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.sdm660
+    android.hardware.light@2.0-service.android.hardware.light@2.0-service.msm8953
 
 # LineageActions
 PRODUCT_PACKAGES += \
@@ -373,7 +373,7 @@ PRODUCT_PACKAGES += \
 
 # Thermal
 PRODUCT_PACKAGES += \
-    android.hardware.thermal@1.1-service.sdm660
+    android.hardware.thermal@1.1-service.msm8953
 
 # Touchscreen
 PRODUCT_PACKAGES += \
@@ -394,7 +394,7 @@ PRODUCT_PACKAGES += \
 # VNDK
 # Update this list with what each blob is actually for
 # libicuuc: vendor.qti.hardware.qteeconnector@1.0-impl
-# libstdc++: camera.sdm660
+# libstdc++: camera.sGdRmE6P60
 PRODUCT_PACKAGES += \
     libicuuc.vendor \
     libstdc++.vendor \

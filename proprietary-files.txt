@@ -13,7 +13,7 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_csot_nt_fhd_618.xml
 
 # Camera
 vendor/lib/hw/libSonyDefocus.so
-vendor/lib/hw/camera.sdm660.so
+vendor/lib/hw/camera.msm8953.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libactuator_dw9714.so
 vendor/lib/libactuator_fp5510e2.so
@@ -289,10 +289,10 @@ vendor/etc/init/init.ets.rc
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/gatekeeper.sdm660.so
+vendor/lib/hw/gatekeeper.msm8953.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/gatekeeper.sdm660.so
+vendor/lib64/hw/gatekeeper.msm8953.so
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
@@ -583,7 +583,7 @@ vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libQTapGLES.so
-vendor/lib/hw/vulkan.sdm660.so
+vendor/lib/hw/vulkan.msm8953.so
 vendor/lib/libadreno_utils.so
 vendor/lib/libbccQTI.so
 vendor/lib/libC2D2.so
@@ -610,7 +610,7 @@ vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libQTapGLES.so
-vendor/lib64/hw/vulkan.sdm660.so
+vendor/lib64/hw/vulkan.msm8953.so
 vendor/lib64/libadreno_utils.so
 vendor/lib64/libbccQTI.so
 vendor/lib64/libC2D2.so
@@ -953,7 +953,7 @@ vendor/lib/libsensorndkbridge.so
 
 # Sensors
 vendor/bin/sensors.qti
-vendor/lib/hw/activity_recognition.sdm660.so
+vendor/lib/hw/activity_recognition.msm8953.so
 vendor/lib/libsensor1.so
 vendor/lib/sensors.rp.so
 vendor/lib/libsensor_reg.so
@@ -961,7 +961,7 @@ vendor/lib/libsensor1.so
 vendor/lib/sensor_calibrate.so
 vendor/lib/sensors.rp.so
 vendor/lib/sensors.ssc.so
-vendor/lib64/hw/activity_recognition.sdm660.so
+vendor/lib64/hw/activity_recognition.msm8953.so
 vendor/lib64/libsensor1.so
 vendor/lib64/sensors.rp.so
 vendor/lib64/libsensor_reg.so
