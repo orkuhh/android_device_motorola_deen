@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_deen.mk
+    $(LOCAL_DIR)/rr_deen.mk

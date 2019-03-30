@@ -16,7 +16,7 @@
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/rr/config/common.mk)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
@@ -68,7 +68,7 @@ endif
 
 # Device identifiers
 PRODUCT_DEVICE := deen
-PRODUCT_NAME := arrow_deen
+PRODUCT_NAME := rr_deen
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Motorola One 
 PRODUCT_MANUFACTURER := Motorola
