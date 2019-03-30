@@ -1,19 +1,18 @@
 Copyright 2018 - The LineageOS Project
 
-Device configuration for Motorola One Power (chef)
+Device configuration for Motorola One (deen)
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core 1.8 GHz Kryo 260
-CHIPSET | Qualcomm SDM636 Snapdragon 636
-GPU     | Adreno 509
-Memory  | 4GB or 6GB
-Shipped Android Version | 8.1 (Oreo)
-Storage | 64GB or 128GB
-Battery | 5000 mAh
-Dimensions | 156 x 76 x 8.98 mm
-Display | 1080 x 2246 pixels, 6.2" IPS LCD
-Rear Camera  | 16 MP (f/1.8) + 5 MP (f/2.2), (PDAF, dual pixel)
-Front Camera | 12 MP (f/2.2)
+CPU     | Octa-core 2.0 GHz Cortex-A53
+Chipset | Qualcomm MSM8953-PRO Snapdragon 625
+GPU     | Adreno 506
+Memory  | 4 GB RAM
+Shipped Android Version | 8.1.0
+Storage | 64 GB
+MicroSD | Up to 256 GB
+Battery | Li-Ion 3000mAh battery
+Display | 720 x 1520 pixels, 5.9 inches (~287 ppi pixel density)
+Camera  | 13 MP, 2160 pixels, panorama,depth sensor, PDAF ,flash LED
 
-![Motorola Moto One Power](https://i-cdn.phonearena.com//images/phones/73027-xlarge/Motorola-One-Power-5.jpg "Motorola Moto One Power")
+![Motorola One](https://cdn2.gsmarena.com/vv/pics/motorola/motorola-one-02.jpg "Motorola One")

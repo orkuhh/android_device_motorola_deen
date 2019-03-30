@@ -61,9 +61,9 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 
 # TWRP
 ifeq ($(WITH_TWRP),true)
-    $(call inherit-product, device/motorola/chef/twrp/twrp.mk)
+    $(call inherit-product, device/motorola/deen/twrp/twrp.mk)
 else
-    TARGET_RECOVERY_FSTAB := device/motorola/chef/rootdir/etc/fstab.qcom
+    TARGET_RECOVERY_FSTAB := device/motorola/deen/rootdir/etc/fstab.qcom
 endif
 
 # Device identifiers

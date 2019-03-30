@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/deen/chef-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/deen/deen-vendor.mk)
 
 
 # Properties

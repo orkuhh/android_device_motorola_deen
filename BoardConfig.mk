@@ -15,17 +15,17 @@
 #
 
 
-DEVICE_PATH := device/motorola/chef
+DEVICE_PATH := device/motorola/deen
 
 # Assertions
-TARGET_OTA_ASSERT_DEVICE := chef
+TARGET_OTA_ASSERT_DEVICE := deen
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_chef_defconfig
-TARGET_KERNEL_SOURCE := kernel/motorola/sdm660
+TARGET_KERNEL_CONFIG := deen_defconfig
+TARGET_KERNEL_SOURCE := kernel/motorola/kernel
 TARGET_KERNEL_CLANG_COMPILE := true
 
 # Partitions
@@ -45,7 +45,7 @@ PRODUCT_SHIPPING_API_LEVEL := 27
 WIFI_DRIVER_OPERSTATE_PATH := "/sys/class/net/wlan0/operstate"
 
 # inherit from the proprietary version
--include vendor/motorola/chef/BoardConfigVendor.mk
+-include vendor/motorola/deen/BoardConfigVendor.mk
 
 
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_PATH)/include

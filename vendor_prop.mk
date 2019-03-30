@@ -53,7 +53,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.sensors=chef_sprout \
+    ro.hardware.sensors=deen_sprout \
     ro.vendor.sensors.maghalcal=true \
     ro.mot.sensors.glance_approach=false \
     ro.vendor.sensors.pmd=false \
