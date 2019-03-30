@@ -17,7 +17,7 @@
 
 set -e
 
-export DEVICE=chef
+export DEVICE=deen
 export VENDOR=motorola
 
 export DEVICE_BRINGUP_YEAR=2018
@@ -41,7 +41,7 @@ fi
 setup_vendor "$DEVICE" "$VENDOR" "$LINEAGE_ROOT" true
 
 # Copyright headers and guards
-write_headers "chef"
+write_headers "deen"
 
 write_makefiles "$MY_DIR"/proprietary-files.txt true
 

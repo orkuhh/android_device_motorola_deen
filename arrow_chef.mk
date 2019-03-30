@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Device
-$(call inherit-product, device/motorola/chef/device.mk)
+$(call inherit-product, device/motorola/deen/device.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -67,14 +67,14 @@ else
 endif
 
 # Device identifiers
-PRODUCT_DEVICE := chef
-PRODUCT_NAME := arrow_chef
+PRODUCT_DEVICE := deen
+PRODUCT_NAME := arrow_deen
 PRODUCT_BRAND := motorola
-PRODUCT_MODEL := Motorola One Power
+PRODUCT_MODEL := Motorola One 
 PRODUCT_MANUFACTURER := Motorola
-PRODUCT_RELEASE_NAME := chef
+PRODUCT_RELEASE_NAME := deen
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME=chef
+    PRODUCT_NAME=deen
 
 BUILD_FINGERPRINT := motorola/chef_retail/chef_sprout:9/PPT29.74-25/64be:user/release-keys

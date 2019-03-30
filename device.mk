@@ -15,7 +15,7 @@
 #
 
 # Vendor blobs
-$(call inherit-product-if-exists, vendor/motorola/chef/chef-vendor.mk)
+$(call inherit-product-if-exists, vendor/motorola/deen/chef-vendor.mk)
 
 
 # Properties
@@ -49,7 +49,7 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Init
 PRODUCT_PACKAGES += \
-    init.chef.rc
+    init.deen.rc
 
 # Sensors
 PRODUCT_COPY_FILES += \

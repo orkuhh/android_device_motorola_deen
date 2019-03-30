@@ -23,7 +23,7 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 LINEAGE_ROOT="$MY_DIR"/../../..
 
-export DEVICE=chef
+export DEVICE=deen
 export VENDOR=motorola
 
 export DEVICE_BRINGUP_YEAR=2018

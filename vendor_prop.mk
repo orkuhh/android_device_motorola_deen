@@ -1,5 +1,5 @@
 #
-# vendor props for chef
+# vendor props for deen
 #
 
 # Audio
