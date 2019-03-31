@@ -51,6 +51,10 @@ TARGET_SCREEN_WIDTH := 720
 PRODUCT_PACKAGES += \
     init.deen.rc
 
+# Keymaster
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-impl
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
@@ -235,7 +239,7 @@ PRODUCT_COPY_FILES += \
 
 # LED packages
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.android.hardware.light@2.0-service.msm8953
+    android.hardware.light@2.0-service.msm8953
 
 # LineageActions
 #PRODUCT_PACKAGES += \
