@@ -238,8 +238,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.android.hardware.light@2.0-service.msm8953
 
 # LineageActions
-PRODUCT_PACKAGES += \
-    LineageActions
+#PRODUCT_PACKAGES += \
+#    LineageActions
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
