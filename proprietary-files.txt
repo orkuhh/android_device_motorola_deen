@@ -11,6 +11,15 @@ vendor/etc/acdbdata/Speaker_cal.acdb
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_nt_fhd_618.xml
 vendor/etc/qdcm_calib_data_mipi_mot_vid_csot_nt_fhd_618.xml
 
+# USB
+system/lib64/android.hardware.usb@1.0.so
+
+# NFC
+system/lib64/vndk-28/android.hardware.nfc@1.0.so
+
+# Wifi
+system/lib64/vndk-28/android.hardware.wifi@1.0.so
+
 # Camera
 vendor/lib/hw/libSonyDefocus.so
 vendor/lib/hw/camera.msm8953.so
