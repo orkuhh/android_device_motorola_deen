@@ -231,7 +231,7 @@ CUSTOM_APNS_FILE := $(DEVICE_PATH)/configs/sprint_apns.xml
 BOARD_ROOT_EXTRA_FOLDERS := persist
 
 # Vendor Security Patch Level
-VENDOR_SECURITY_PATCH := 2018-11-01
+VENDOR_SECURITY_PATCH := 2018-06-05
 
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
