@@ -202,8 +202,8 @@ BOARD_KERNEL_SEPARATED_DT := true
 TARGET_KERNEL_CONFIG := deen_defconfig
 TARGET_KERNEL_SOURCE := kernel/motorola/kernel
 LZMA_RAMDISK_TARGETS := recovery
-
 #TARGET_KERNEL_CLANG_COMPILE := true
+
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
@@ -226,6 +226,25 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_RIL_VARIANT := caf
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 CUSTOM_APNS_FILE := $(DEVICE_PATH)/configs/sprint_apns.xml
+
+#Permissions
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permissions=log \
+    ro.adb.secure=0 \
+    persist.sys.usb.config=mtp,adb \
+    persist.service.debuggable=1 \
+    persist.service.adb.enable=1
+
+# VoLTE
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.dbg.ims_volte_enable=1 \
+    persist.dbg.volte_avail_ovr=1 \
+    persist.dbg.vt_avail_ovr=1 \
+    persist.dbg.wfc_avail_ovr=1 \
+    persist.radio.rat_on=combine \
+    persist.radio.data_ltd_sys_ind=1 \
+    persist.radio.data_con_rprt=1 \
+    persist.radio.calls.on.ims=1
 
 # Root
 BOARD_ROOT_EXTRA_FOLDERS := persist
