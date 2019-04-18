@@ -80,6 +80,9 @@
          pulsating and RGB control would set this config to 75. -->
     <integer name="config_deviceLightCapabilities">104</integer>
 
+    <!-- Whether device has a notch -->
+    <bool name="config_haveNotch">true</bool>
+
     <!-- Turn on LiveDisplay auto mode by default -->
     <integer name="config_defaultLiveDisplayMode">0</integer>
 
